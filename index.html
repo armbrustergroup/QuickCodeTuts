@@ -6,22 +6,56 @@
 	<link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
 </head>
 <body>
-	
-	<div class="wrapper">
-		<p>Site is under construction. Check back soon!</p>
+
+	<div class="jumbotron text-center">
+	  
+	  <h1>Welcome to Quick Coding Tuts!</h1>
+	  <h4>Tutorials under 5 minutes. It's what we do.</h4>
+	  <p>
+	  	<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+	  </p>
+
 	</div>
 
-	
+	<nav>
+		<ul class="nav nav-pills">
+  			<li role="presentation" class="active"><a href="#">Home</a></li>
+  			<li role="presentation"><a href="#">Videos</a></li>
+  			<li role="presentation"><a href="#">Articles</a></li>
+		</ul>
+	</nav>
 
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-4 text-center">One</div>
+			<div class="col-md-4 text-center">Two</div>
+			<div class="col-md-4 text-center">Three</div>
+		</div>
+		<div class="row">
+			<div id="first-row" class="col-md-12 filled-in">
+				<img src="one1.jpg" style="width: 100%;">
+			</div>
+		</div>
+	</div>
 
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12 filled-in" style="background-color: gray; height: 150px;">
+			</div>
+		</div>
+	</div>
 
 
 	<script type="text/javascript" src="js/boostrap.min.js"></script>
 	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 	<script type="text/javascript">
+		$( document ).ready(function() {
+		    
+			$("a").click(function(){
+			    $("li").toggleClass("active");
+			});
 
-		alert("hello world");
-
+		});
 	</script>
 
 </body>
