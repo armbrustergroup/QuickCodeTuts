@@ -2,8 +2,22 @@
 	font-size: 40px;
 }
 
-#first-row{
-	width: 100%;
-	margin: 0 auto;
+.first-row{
 	padding: 0;
+	margin: 0;
+	background-color: black; 
+	height: 250px;
+	font-size: 5em;
+}
+
+.parent{
+	position: relative;
+}
+
+.child{
+	position: absolute;
+
+	top: 35%;
+	left: 35%;
+
 }
