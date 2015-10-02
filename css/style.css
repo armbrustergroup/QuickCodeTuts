@@ -8,6 +8,7 @@
 	background-color: black; 
 	height: 250px;
 	font-size: 5em;
+	border-bottom: 3px solid gray;
 }
 
 .parent{
@@ -17,7 +18,13 @@
 .child{
 	position: absolute;
 
-	top: 35%;
-	left: 35%;
+	top: 25%;
+}
 
+img{
+	height: 240px;
+}
+
+footer{
+	padding-top: 15px;
 }
